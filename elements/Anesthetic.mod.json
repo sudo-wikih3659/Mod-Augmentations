@@ -1,0 +1,22 @@
+{
+  "_fv": 73,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Potion of Anesthetic",
+    "splashName": "Splash Potion of Anesthetic",
+    "lingeringName": "Lingering Potion of Anesthetic",
+    "arrowName": "Arrow of Anesthetic",
+    "effects": [
+      {
+        "effect": {
+          "value": "CUSTOM:Anethesized"
+        },
+        "duration": 1200,
+        "infinite": false,
+        "amplifier": 0,
+        "ambient": false,
+        "showParticles": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "_fv": 73,
+  "_type": "attribute",
+  "definition": {
+    "name": "Bandwidth",
+    "minValue": 0.0,
+    "maxValue": 128.0,
+    "defaultValue": 0.0,
+    "addToAllEntities": false,
+    "addToPlayers": true,
+    "entities": []
+  }
+}

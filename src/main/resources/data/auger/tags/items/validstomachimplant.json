@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "auger:surgery_extractor",
+    "auger:natural_stomach",
+    "auger:nuclear_stomach",
+    "auger:sterilizing_stomach",
+    "auger:fleshmass_stomach"
+  ]
+}

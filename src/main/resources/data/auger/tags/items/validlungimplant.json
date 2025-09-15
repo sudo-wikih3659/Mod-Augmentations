@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "auger:surgery_extractor",
+    "auger:natural_lung",
+    "auger:bionic_lung",
+    "auger:air_balloon"
+  ]
+}

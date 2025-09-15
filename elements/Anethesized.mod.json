@@ -1,0 +1,41 @@
+{
+  "_fv": 73,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Anethesized",
+    "icon": "anesthetic",
+    "color": {
+      "value": -16711834,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "mobEffectCategory": "NEUTRAL",
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "isCuredByMilk": true,
+    "isProtectedByTotem": true,
+    "isCuredbyHoney": false,
+    "modifiers": [
+      {
+        "attribute": {
+          "value": "JUMP_STRENGTH"
+        },
+        "amount": -20.0,
+        "operation": "ADD_VALUE"
+      },
+      {
+        "attribute": {
+          "value": "MOVEMENT_SPEED"
+        },
+        "amount": -20.0,
+        "operation": "ADD_VALUE"
+      }
+    ],
+    "onStarted": {
+      "name": "AnethesizedEffectStartedapplied"
+    },
+    "onExpired": {
+      "name": "AnethesizedEffectExpires"
+    }
+  }
+}

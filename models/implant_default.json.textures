@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "implant_default"
+      },
+      "name": "default"
+    }
+  }
+}

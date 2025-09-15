@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "auger:surgery_extractor",
+    "auger:mindscrew",
+    "auger:mech_link",
+    "auger:neurocalculator",
+    "auger:natural_head",
+    "auger:eldritch_brain"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "auger:surgery_extractor",
+    "auger:archotech_eye",
+    "auger:bionic_eye",
+    "auger:natural_eyes",
+    "auger:skulk_sensors"
+  ]
+}

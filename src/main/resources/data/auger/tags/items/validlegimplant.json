@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "auger:surgery_extractor",
+    "auger:natural_leg",
+    "auger:bionic_leg"
+  ]
+}

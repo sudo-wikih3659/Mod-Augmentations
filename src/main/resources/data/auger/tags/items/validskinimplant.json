@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "auger:surgery_extractor",
+    "auger:natural_skin",
+    "auger:stone_skin",
+    "auger:plasteel_skin"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "auger:surgery_extractor",
+    "auger:natural_arm",
+    "auger:bionic_arm",
+    "auger:archotech_arm",
+    "auger:flesh_arm",
+    "auger:drill_arm"
+  ]
+}

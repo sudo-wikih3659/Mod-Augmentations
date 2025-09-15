@@ -1,0 +1,640 @@
+{
+  "_fv": 73,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 192,
+    "height": 216,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "entitymodel",
+        "data": {
+          "entityModel": {
+            "name": "Surgguimodel"
+          },
+          "scale": 30,
+          "rotationX": 0,
+          "followMouseMovement": true,
+          "x": 186,
+          "y": 80,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "TAG:auger:validbrainimplant"
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 0,
+          "disablePickup": {
+            "fixedValue": true
+          },
+          "dropItemsWhenNotBound": false,
+          "x": 132,
+          "y": 26,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "TAG:auger:validskinimplant"
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 1,
+          "disablePickup": {
+            "fixedValue": true
+          },
+          "dropItemsWhenNotBound": false,
+          "x": 132,
+          "y": 44,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "TAG:auger:valideyeimplant"
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 2,
+          "disablePickup": {
+            "fixedValue": true
+          },
+          "dropItemsWhenNotBound": false,
+          "x": 150,
+          "y": 35,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "TAG:auger:validheadimplant"
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 3,
+          "disablePickup": {
+            "fixedValue": true
+          },
+          "dropItemsWhenNotBound": false,
+          "x": 150,
+          "y": 17,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "TAG:auger:validarmimplant"
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 4,
+          "disablePickup": {
+            "fixedValue": true
+          },
+          "dropItemsWhenNotBound": false,
+          "x": 159,
+          "y": 62,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "TAG:auger:validlegimplant"
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 5,
+          "disablePickup": {
+            "fixedValue": true
+          },
+          "dropItemsWhenNotBound": false,
+          "x": 168,
+          "y": 89,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "TAG:auger:validlegimplant"
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 6,
+          "disablePickup": {
+            "fixedValue": true
+          },
+          "dropItemsWhenNotBound": false,
+          "x": 204,
+          "y": 89,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "TAG:auger:validarmimplant"
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 7,
+          "disablePickup": {
+            "fixedValue": true
+          },
+          "dropItemsWhenNotBound": false,
+          "x": 213,
+          "y": 62,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_implant_default",
+          "image": "implant_default.png",
+          "hoveredImage": "implant_default.png",
+          "onClick": {
+            "name": "GuiReboot"
+          },
+          "x": 132,
+          "y": 206,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_implant_default1",
+          "image": "implant_default.png",
+          "hoveredImage": "implant_default.png",
+          "onClick": {
+            "name": "GuiSave"
+          },
+          "x": 276,
+          "y": 206,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_save",
+          "text": {
+            "fixedValue": "save"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 276,
+          "y": 197,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_reboot",
+          "text": {
+            "fixedValue": "reboot"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 132,
+          "y": 197,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "TAG:mod:validkidneyimplant"
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 9,
+          "disablePickup": {
+            "fixedValue": true
+          },
+          "dropItemsWhenNotBound": false,
+          "x": 249,
+          "y": 71,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "TAG:mod:validheartimplant"
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 10,
+          "disablePickup": {
+            "fixedValue": true
+          },
+          "dropItemsWhenNotBound": false,
+          "x": 249,
+          "y": 44,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "TAG:mod:validlungimplant"
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 11,
+          "disablePickup": {
+            "fixedValue": true
+          },
+          "dropItemsWhenNotBound": false,
+          "x": 249,
+          "y": 17,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "TAG:auger:validtorsoimplant"
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 12,
+          "disablePickup": {
+            "fixedValue": true
+          },
+          "dropItemsWhenNotBound": false,
+          "x": 276,
+          "y": 17,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "TAG:mod:validstomachimplant"
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 13,
+          "disablePickup": {
+            "fixedValue": true
+          },
+          "dropItemsWhenNotBound": false,
+          "x": 276,
+          "y": 44,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "TAG:auger:validgeneimplant"
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 14,
+          "disablePickup": {
+            "fixedValue": true
+          },
+          "dropItemsWhenNotBound": false,
+          "x": 276,
+          "y": 71,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_implant_default2",
+          "image": "implant_default.png",
+          "hoveredImage": "implant_default.png",
+          "onClick": {
+            "name": "GuiClear"
+          },
+          "x": 204,
+          "y": 206,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_clear",
+          "text": {
+            "fixedValue": "clear"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 204,
+          "y": 197,
+          "locked": false
+        }
+      },
+      {
+        "type": "checkbox",
+        "data": {
+          "name": "sureyouwanttosave",
+          "text": "Are you sure?",
+          "x": 312,
+          "y": 197,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_eye_implant",
+          "text": {
+            "fixedValue": "Eye Implant"
+          },
+          "displayCondition": {
+            "name": "TooltipEyeImplant"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 150,
+          "y": 35,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_head_implant",
+          "text": {
+            "fixedValue": "Head Implant"
+          },
+          "displayCondition": {
+            "name": "TooltipHeadImplant"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 150,
+          "y": 8,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_brain_implant",
+          "text": {
+            "fixedValue": "Brain Implant"
+          },
+          "displayCondition": {
+            "name": "TooltipBrainImplant"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 123,
+          "y": 17,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_skin_implant",
+          "text": {
+            "fixedValue": "Skin Implant"
+          },
+          "displayCondition": {
+            "name": "TooltipSkinImplant"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 123,
+          "y": 44,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_arm_implant",
+          "text": {
+            "fixedValue": "Arm Implant"
+          },
+          "displayCondition": {
+            "name": "TooltipArm1Implant"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 159,
+          "y": 62,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_leg_implant",
+          "text": {
+            "fixedValue": "Leg Implant"
+          },
+          "displayCondition": {
+            "name": "TooltipLeg1Implant"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 159,
+          "y": 89,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_leg_implant1",
+          "text": {
+            "fixedValue": "Leg Implant"
+          },
+          "displayCondition": {
+            "name": "TooltipLeg2Implant"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 204,
+          "y": 89,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_arm_implant1",
+          "text": {
+            "fixedValue": "Arm Implant"
+          },
+          "displayCondition": {
+            "name": "TooltipArm2Implant"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 213,
+          "y": 62,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_lung_implant",
+          "text": {
+            "fixedValue": "Lung Implant"
+          },
+          "displayCondition": {
+            "name": "TooltipLung1Implant"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 240,
+          "y": 8,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_lung_implant1",
+          "text": {
+            "fixedValue": "Torso Implant"
+          },
+          "displayCondition": {
+            "name": "TooltipLung2Implant"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 276,
+          "y": 8,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_heart_implant",
+          "text": {
+            "fixedValue": "Heart Implant"
+          },
+          "displayCondition": {
+            "name": "TooltipHeartImplant"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 240,
+          "y": 35,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_stomach_implant",
+          "text": {
+            "fixedValue": "Stomach Implant"
+          },
+          "displayCondition": {
+            "name": "TooltipStomachImplant"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 276,
+          "y": 35,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_kidney_implant",
+          "text": {
+            "fixedValue": "Kidney Implant"
+          },
+          "displayCondition": {
+            "name": "TooltipKidneyImplant"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 240,
+          "y": 62,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_kidney_implant1",
+          "text": {
+            "fixedValue": "Geneseed Implant"
+          },
+          "displayCondition": {
+            "name": "TooltipGeneseedImplant"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 276,
+          "y": 62,
+          "locked": false
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

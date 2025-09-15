@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "auger:surgery_extractor",
+    "auger:natural_heart",
+    "auger:adrenal_heart",
+    "auger:pacemaker"
+  ]
+}

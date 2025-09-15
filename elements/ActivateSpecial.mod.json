@@ -1,0 +1,12 @@
+{
+  "_fv": 73,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "H",
+    "keyBindingName": "Activate Special",
+    "keyBindingCategoryKey": "misc",
+    "onKeyPressed": {
+      "name": "ModKeybind"
+    }
+  }
+}
